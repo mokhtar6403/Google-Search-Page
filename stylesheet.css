@@ -1,0 +1,47 @@
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(97, 79, 79);
+    padding: 7px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14.8em;
+    margin-left: 51.4em;
+  }
+
+.search {
+    display: block;
+    margin-top: 1.2em;
+    margin-left: 51.4em;
+}
+
+.buttom {
+    display: block;
+    margin-top: 1.2em;
+    margin-left: 51.4em;
+}
+
+.button_box {
+    color: rgb(66, 55, 55);
+    background-color: #f4f7fa;
+    border: none;
+    padding: 3px;
+}
+
+.imageclass{
+    display: flex;
+    flex-wrap: wrap;
+}
