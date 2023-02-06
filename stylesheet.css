@@ -23,25 +23,90 @@
   }
 
 .search {
+    position: relative;
     display: block;
     margin-top: 1.2em;
     margin-left: 51.4em;
+    width: 443px;
+    height: 34px;
+    right:100px;
+    top: 10px;
+    border: none;
 }
 
-.buttom {
-    display: block;
-    margin-top: 1.2em;
-    margin-left: 51.4em;
+.bar {
+    position: relative;
+    background-color: #fff;
+    width: 584px;
+    height: 46px;
+    top: 70px;
+    left:680px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
 }
 
-.button_box {
+.bar:hover {
+    box-shadow: red;
+}
+
+.button_box_1 {
+    display: inline;
+    position: relative;
     color: rgb(66, 55, 55);
     background-color: #f4f7fa;
-    border: none;
+    border: 1px solid transparent;
+    padding: 8px;
+    top: 30px;
+    left: 795px;
+    height: 30px;
+    
+}
+
+.button_box_2 {
+    display: inline;
+    position: relative;
+    color: rgb(66, 55, 55);
+    background-color: #f4f7fa;
+    border: 1px solid transparent;
     padding: 3px;
+    top: 1px;
+    left: 935px;
+    
 }
 
 .imageclass{
     display: flex;
     flex-wrap: wrap;
 }
+
+.advncdimg {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.label {
+    color: red; 
+    font-size: 20px;
+    margin: 25px 35px; 
+    border-bottom: 1px solid red;
+  
+}
+
+.created {
+    position: relative;
+    left: 850px;
+    top: 100px;
+
+}
+
+.lense {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 695px;
+    bottom: 80px;
+}
+
