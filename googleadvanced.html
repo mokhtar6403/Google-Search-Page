@@ -11,6 +11,7 @@
     <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
 </head>
 <body>
+    <a class="search-link" href="index.html">Google Search</a>
     </div class="advncdimg">
     <img class="advncdimg" height="24" width="74" src="google.png" alt="Google">
     <div>
@@ -18,16 +19,24 @@
     <div class="label">   
         <label class="header">Advanced Search</label>
     </div>
+
+    <div class="find-pages">    
+        <label>Find pages with...</label>
+    </div>
+    <div class="to-do">   
+        <label>To do this in the search box.</label>
+    </div>
     <!--First google advanced form "bootstrap"-->
     <div class="row g-3 align-items-center">
+      
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label">all these words:</label>
         </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        <div class="col-auto" id="button-one">
+          <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
         </div>
         <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
+          <span id="passwordHelpInline" class="form-text" style="position: relative; left: 65px;">
             Type the important words: tri-colour rat terrier
           </span>
         </div>
@@ -37,11 +46,11 @@
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label">this exact word or phrase:</label>
         </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        <div class="col-auto" id="button-two">
+          <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
         </div>
         <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
+          <span id="passwordHelpInline" class="form-text" style="position: relative; right: 5px;">
             Put exact words in quotes: "rat terrier"
           </span>
         </div>
@@ -51,11 +60,11 @@
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label">any of these words:</label>
         </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        <div class="col-auto" id="button-three">
+          <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
         </div>
         <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
+          <span id="passwordHelpInline" class="form-text" style="position: relative; left: 37px;">
             Type OR between all the words you want: miniature OR standard
           </span>
         </div>
@@ -65,27 +74,35 @@
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label">none of these words:</label>
         </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        <div class="col-auto"id="button-four">
+          <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
         </div>
         <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+          <span id="passwordHelpInline" class="form-text" style="position: relative; left: 32px;">
+            Put a minus sign just before words that you don't want:
+            <br> -rodent, -"Jack Russell"
           </span>
         </div>
       </div>
 
+      <div class="row g-3 align-items-center" style="position: relative; bottom: 30px;">
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label">numbers ranging from:</label>
         </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        <div class="col-auto" id="button-five">
+          <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
         </div>
         <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+          <span id="passwordHelpInline" class="form-text" style="position: relative; top: 40px; left: 20px;" >to</span>        
+          <div class="col-auto" id="button-six">
+          <input type="number" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text" style="position: relative; left: 335px; bottom: 20px;">
+            Put two full stops between the numbers and add a unit of measurement:<br> 10..35 kg, £300..£500, 2010..2011
           </span>
         </div>
       </div>
+
 </body>
 </html>

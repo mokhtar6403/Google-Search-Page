@@ -81,16 +81,15 @@
 }
 
 .advncdimg {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
+    position: relative;
+    top: 20px;
+    right: 75px;
 }
 
 .label {
-    color: red; 
+    color: #d93025;
     font-size: 20px;
-    margin: 25px 35px; 
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #dfe1e5;
   
 }
 
@@ -110,3 +109,89 @@
     bottom: 80px;
 }
 
+.header {
+    margin: 40px 2% 20px 45px;
+
+}
+
+body {
+    font-family: arial,sans-serif;
+}
+
+.row.g-3 {
+    margin-top: 20px;
+    margin-left: 45px;
+
+}
+
+#button-one {
+
+    position: relative;
+    width: 572px;
+    height: 29px;
+    left: 73px;
+}
+
+#button-two {
+    position: relative;
+    width: 572px;
+    height: 29px;
+}
+
+#button-three {
+
+    position: relative;
+    width: 572px;
+    height: 29px;
+    left: 44px;
+}
+
+#button-four {
+
+    position: relative;
+    width: 572px;
+    height: 29px;
+    left: 33px;
+}
+
+#button-five {
+
+    position: relative;
+    width: 261px;
+    height: 29px;
+    left: 16px;
+}
+
+#button-six {
+
+    position: relative;
+    width: 261px;
+    height: 29px;
+    left: 56px;
+    top: 12px;
+}
+
+.find-pages {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.to-do {
+    position: relative;
+    top: 16px;
+    left: 810px;
+}
+
+.search-link {
+    position: relative;
+    left: 2000px;
+    top: 10px;
+    text-decoration: none;
+    color: rgb(66, 55, 55);
+}
+
+.search-link:hover {
+    text-decoration: underline;
+    color: rgb(66, 55, 55);
+}
