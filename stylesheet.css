@@ -1,66 +1,99 @@
-
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 100em;
+/* Adjusting Google image  */
+.imgs {
+    text-decoration: none;
+    color:rgb(0,0,0,.87);
+    padding: 7px;
+    position: relative;
+    top: 6px;
+    left: 1680px;
 }
 
-.nav a {
+/* Adjusting the navigation bar */
+.advncd {
     text-decoration: none;
-    color: rgb(97, 79, 79);
+    color:rgb(0,0,0,.87);
     padding: 7px;
+    position: relative;
+    top: 6px;
+    left: 1694px;
 }
 
 .nav a:hover {
     text-decoration: underline;
+    color:rgb(12, 0, 0);
 }
 
 .image {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 14.8em;
-    margin-left: 51.4em;
+    justify-content: center;
+    top: 220px;
   }
 
+/* Search bar items */
 .search {
     position: relative;
-    display: block;
-    margin-top: 1.2em;
-    margin-left: 51.4em;
+    top: 204px;
+    left: 736px;
     width: 443px;
     height: 34px;
-    right:100px;
-    top: 10px;
+    outline: none;
     border: none;
 }
 
 .bar {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     background-color: #fff;
     width: 584px;
     height: 46px;
-    top: 70px;
-    left:680px;
+    top: 244px;
+    left:681px;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
 }
 
 .bar:hover {
-    box-shadow: red;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
+.lense {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 695px;
+    top: 146px;
+}
+
+.micro {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 119px;
+    left: 1182px;
+}
+
+.cam {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 122px;
+    left: 1193px;
+}
+
+/* The search buttons */
 .button_box_1 {
-    display: inline;
     position: relative;
     color: rgb(66, 55, 55);
     background-color: #f4f7fa;
     border: 1px solid transparent;
-    padding: 8px;
-    top: 30px;
-    left: 795px;
-    height: 30px;
-    
+    top: 269px;
+    left: 377px;
+    padding: 3px;
 }
 
 .button_box_2 {
@@ -70,16 +103,85 @@
     background-color: #f4f7fa;
     border: 1px solid transparent;
     padding: 3px;
-    top: 1px;
-    left: 935px;
-    
+    top: 239px;
+    left: 953px;   
 }
 
-.imageclass{
-    display: flex;
-    flex-wrap: wrap;
+.button_box_1:hover, .button_box_2:hover {
+    border: 1px solid rgb(33,33,33,.2);
 }
 
+.created {
+    position: relative;
+    top: 254px;
+    left: 842px;
+    width:500px;
+}
+
+/* Google image page styling  */
+
+.lense-image {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 177px;
+    left: 695px;
+}
+
+.micro-image {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 175px;
+    left: 1107px;
+}
+
+.cam-image {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 178px;
+    left: 1113px;
+}
+
+.images-label {
+    position: relative;
+    width: 51.8px;
+    height: 16px;
+    top: 115px;
+    left: 933px;
+    color: #4285f4;
+}
+
+.image-input {
+    position: relative;
+    width: 443px;
+    height: 34px;
+    top: 204px;
+    left: 718px;
+    outline: none;
+    border: none;
+}
+
+.image-search {
+    position: relative;
+    top: 211px;
+    left: 777px;
+    width: 38px;
+    height: 25px;
+    background-color: #fff;
+    border: none;
+
+}
+
+.lense-image-2 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: 176px;
+    left: 1202px;
+}
+/* Google Advance Search Styling */
 .advncdimg {
     position: relative;
     top: 20px;
@@ -91,22 +193,6 @@
     font-size: 20px;
     border-bottom: 1px solid #dfe1e5;
   
-}
-
-.created {
-    position: relative;
-    left: 850px;
-    top: 100px;
-
-}
-
-.lense {
-    display: block;
-    position: relative;
-    width: 20px;
-    height: 20px;
-    left: 695px;
-    bottom: 80px;
 }
 
 .header {
@@ -172,20 +258,21 @@ body {
 }
 
 .find-pages {
-    position: relative;
-    top: 40px;
-    left: 50px;
+    position: absolute;
+    top: 136px;
+    left: 55px;
 }
 
 .to-do {
     position: relative;
     top: 16px;
     left: 810px;
+    width: 400px;
 }
 
 .search-link {
     position: relative;
-    left: 2000px;
+    left: 1790px;
     top: 10px;
     text-decoration: none;
     color: rgb(66, 55, 55);
@@ -195,3 +282,20 @@ body {
     text-decoration: underline;
     color: rgb(66, 55, 55);
 }
+
+.submit-botton {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background-color: #4d90fe;
+    color: #fff;
+    font-size: 13px;
+    left: 636px;
+    border: 1px solid #3079ed;
+}
+
+
+.submit-botton:hover {
+    background-color: #4787ed;
+}
+
