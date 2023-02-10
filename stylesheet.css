@@ -174,7 +174,7 @@
 
 }
 
-.lense-image-2 {
+.lense-image-2 { 
     position: relative;
     width: 15px;
     height: 15px;
@@ -297,5 +297,5 @@ body {
 
 .submit-botton:hover {
     background-color: #4787ed;
+    border
 }
-
